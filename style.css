@@ -1,6 +1,7 @@
 
 /* Styling the container  */
 .container{
+    font-family:"Rubik", sans-serif;
     width:1440px;
     top:-2360px;
     left:-760px;
@@ -90,11 +91,89 @@
 header{
    width:1200px; 
    display: flex;
-   margin-top: 50px;
+   margin-top: 100px;
+   height: 400px;
 }
-.header-title{
-    width:560px;
+header .header-title{
+    width:50%;
+    height:100%;
+}
+header .header-title .header-title-h1{
+    margin-right:100px;
+    width: 100%;
+    padding: 20px 30px 20px 00px;
+    
+}
+
+header .header-title .header-title-h1 h1{
+    font-weight:500;
+    color:#0B132A;
+}
+
+header .header-title .header-title-p{
+    margin-right:50px;
+     
+}
+header .header-title .header-title-p p{
+    font-weight: Rubik, sans-serif;
+    font-weight:400;
+    size:5px;
+    line-height: 30px;
+}
+
+header .header-img{
+  width:50%;
+  height:100%;
+}
+.header-title-btn{
+    color:aliceblue;
+    width:250px;
+    padding: 15px 15px;
+    margin-top: 10px;
+    border: 1px solid rgb(128, 70, 70);
+    border-radius: 15px;
+    background-color: rgb(222, 50, 50);
+    box-shadow:5px 3px 3px rgb(141, 93, 93);
+    cursor: pointer;
+
+}
+.header-title-btn:hover{
+    color:red;
+    background-color:white;
 }
 .header-img{
-    width:620px;
+    width:615px;
+    margin-left: 25px;
+    margin-right: 0;
 }
+ 
+   /* Advertisment:users_locations_servers  */
+.users_locations_servers{
+    width:1140px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.users, .locations, .servers{
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.users img{
+    margin-right: 10px;
+}
+.users{
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.users img, .locations img, .servers img{
+    margin-right: 25px;
+}
+
+
+
