@@ -217,70 +217,169 @@ header .header-img {
 
 /* Features starts */
 
-.features{
-    width:1140px;
+.features {
+    width: 1140px;
     height: 500px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
- .features .features_img{
-    width:510px;
+.features .features_img {
+    width: 510px;
     height: 415px;
     margin-right: 200px;
- }
- .features-description {
+}
+
+.features-description {
     width: 510px;
     height: 415px;
     padding-top: 35px;
 }
-.features_title{
+
+.features_title {
     width: 385px;
     height: 100px;
 
 }
-.features_title h1{
-    font-family: Rubik,sans-serif;
+
+.features_title h1 {
+    font-family: Rubik, sans-serif;
     font-weight: 500;
-    size:35px;
+    size: 35px;
 }
-.features_text{
-    width:430px;
+
+.features_text {
+    width: 430px;
     height: 60px;
 }
-.features_text p{
-    font-family: Rubik,sans-serif;
+
+.features_text p {
+    font-family: Rubik, sans-serif;
     font-weight: 400;
     size: 16px;
     line-height: 30px;
 }
-.features_ul{
-    width:400px;
-    height:500px;
+
+.features_ul {
+    width: 400px;
+    height: 500px;
 }
-.features_ul ol{
-    width:100%;
+
+.features_ul ol {
+    width: 100%;
     display: flex;
-    flex-direction:row;
-   
+    flex-direction: row;
+
 }
-.features_ul ol h2{
-    width:179px;
+
+.features_ul ol h2 {
+    width: 179px;
     height: 30px;
     font-family: Rubik, sans-serif;
     font-weight: 400;
-    size:14px;
-    line-height:30px;
+    size: 14px;
+    line-height: 30px;
     margin-bottom: 2em;
-    
+
 }
-.features_ul ol img{
-    width:24px;
+
+.features_ul ol img {
+    width: 24px;
     height: 24px;
-    padding-right:2em;
+    padding-right: 2em;
     padding-top: 20px;
+
+}
+
+/* Choose Plans styling  */
+.plans {
+    width: 1100px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.plan_title {
+    width: 100%;
+    padding-left: 100px;
+    float: inline-start;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan_title h1 {
+    width: 385px;
+    height: 50px;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    size: 35px;
+    line-height: 50px;
     
 }
-/* Choose Plans styling  */
+
+.plan_title p {
+    width: 555px;
+    height: 60px;
+    font-weight: 400;
+    size:16px;
+    line-height: 30px;
+}
+
+.plans-category {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.plan_free,
+.plan_standard,
+.plan_premium {
+    width: 330px;
+    height: 760px;
+    border: 2px solid red;
+    cursor: pointer;
+
+}
+.plan_free:hover{
+    border: 3px solid red;
+    box-shadow: 5px 10px 5px red;
+}
+.plan_standard:hover{
+    border: 3px solid red;
+    box-shadow: 5px 10px 5px red;
+}
+
+.plan_premium:hover{
+    border: 3px solid red;
+    box-shadow: 5px 10px 5px red;
+}
+.plan_free-img,
+.plan_standard-img,
+.plan_premium-img{
+    width:145px;
+    height: 166px;
+    padding-left: 70px;
+   
+}
+
+.plan_free ul,
+.plan_standard ul,
+.plan_premium ul {
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan_free ul ol,
+.plan_standard ul ol,
+.plan_premium ul ol {
+    width: 190px;
+    height: 195px;
+    display: flex;
+    flex-direction:row;
+}
