@@ -9,8 +9,8 @@ body{
     width: 1440px;
     padding: 20px 50px 20px 50px;
 }
-/* CSS styling of Navigation */
-.container nav{
+/* CSS styling of Nav*/
+nav{
     width: 1200px;
     position: relative;
     display: flex;
@@ -36,6 +36,9 @@ body{
 .nav-menu {
     width: 700px;
     margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
 }
 .nav-menu  li{
     list-style: none;
