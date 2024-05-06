@@ -324,8 +324,9 @@ features .features-description {
 .plans-category {
     width: 1140px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction:row;
+    justify-content:space-between ;
+   
 
 }
 
@@ -333,23 +334,24 @@ features .features-description {
 .plan_standard,
 .plan_premium {
     width: 330px;
-    height: 760px;
-    border: 2px solid red;
+    height: 780px;
+    border: 1.5px solid red;
     cursor: pointer;
+    
 
 }
 .plan_free:hover{
-    border: 3px solid red;
-    box-shadow: 5px 10px 5px red;
+    border: 2px solid red;
+    box-shadow: 2px 3px 2px red;
 }
 .plan_standard:hover{
-    border: 3px solid red;
-    box-shadow: 5px 10px 5px red;
+    border: 2px solid red;
+    box-shadow: 2px 3px 2px red;
 }
 
 .plan_premium:hover{
-    border: 3px solid red;
-    box-shadow: 5px 10px 5px red;
+    border: 2px solid red;
+    box-shadow: 2px 3px 2px red;
 }
 .plan_free-img,
 .plan_standard-img,
@@ -366,13 +368,84 @@ features .features-description {
     width: 195px;
     display: flex;
     flex-direction: column;
+    height: 150px;
+    
 }
 
-.plan_free ul ol,
-.plan_standard ul ol,
-.plan_premium ul ol {
+.plan_free ul li,
+.plan_standard ul li,
+.plan_premium ul li {
     width: 190px;
-    height: 195px;
+    height: 100px;
     display: flex;
-    flex-direction:row;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+.plan_free ul li h2,
+.plan_standard ul li h2,
+.plan_premium ul li h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 2em;
+}
+.plan_free ul li img,
+.plan_standard ul li img,
+.plan_premium ul li img{
+    width:24px;
+    height: 24px;
+    margin-top:15px;
+    margin-right: 5px;
+}
+.free-btn{
+    margin-top:70px;
+    margin: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.free-btn button{
+    width: 150px;
+    height: 45px;
+    border: 1px solid red;
+    border-radius: 45px;
+    background: transparent;
+    box-shadow: 2px 1px 2px red;
+    padding: 3px 5px 3 px 5px;
+}
+.free-btn button{
+    width: 150px;
+    height: 45px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 45px;
+    background: transparent;
+    box-shadow: 2px 1px 2px red;
+    padding: 3px 5px 3 px 5px;
+}
+.free-btn h3{
+    font-weight: 500;
+    size: 25px;
+    line-height: 5px;
+    padding-left: 2em;
+}
+#free-btn{
+    margin-top: 200px;
+}
+.first-free-btn{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.plan_free h3,plan_standard h3,plan_premium h3{
+    width: 555px;
+    height: 60px;
+    font-weight: 400;
+    size:16px;
+    line-height: 30px;
+}
+
+
