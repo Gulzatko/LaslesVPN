@@ -487,3 +487,7 @@ features .features-description {
     background:red;
     transform:scale(1.2);
 }
+/* Global section started  */
+.global{
+    width:1060px;
+}
