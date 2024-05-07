@@ -524,17 +524,21 @@ features .features-description {
 .sponsors{
     width:1136px;
     height:209px;
-    margin:20px 100px 20px 100px;
+    margin:20px 100px 30px 100px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    
 }
 .sponsors-netflix{
     width:200px;
     height: 113px;
+    padding-top: 55px;
 }
 .sponsors-reddit{
     width:157px;
     height: 51px;
+    padding-top: 80px;
 }
 .sponsors-amazon{
     width:278px;
@@ -542,9 +546,11 @@ features .features-description {
 }
 .sponsors-discord{
   width:187px;
-  height: 64px;  
+  height: 64px; 
+  padding-top: 80px; 
 }
 .sponsors-spotify{
     width:172px;
     height: 52px;
+    padding-top: 80px;
 }
