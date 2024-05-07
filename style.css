@@ -7,6 +7,10 @@ body {
     margin: 0;
     padding: 0;
 }
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
 
 /* Styling the container  */
 .container {
@@ -239,7 +243,10 @@ header .header-img {
     flex-direction: row;
     margin-top: 150px;
     margin-bottom: 100px;
+
 }
+
+
 
 .features .features_img {
     width: 510px;
