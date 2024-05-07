@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: "Rubik", sans-serif;
     margin: 0;
@@ -233,7 +237,7 @@ header .header-img {
     height: 500px;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
@@ -245,14 +249,13 @@ header .header-img {
 
 features .features-description {
     width: 510px;
-    height: 415px;
-    padding-top: 35px;
+    height: 400px;
+
 }
 
 .features_title {
     width: 385px;
     height: 100px;
-
 }
 
 .features_title h1 {
@@ -289,6 +292,7 @@ features .features-description {
     height: 30px;
     font-weight: 400;
     size: 14px;
+    margin-top:20px;
 }
 
 .features_ul li img {
@@ -302,7 +306,7 @@ features .features-description {
 .plans {
     width: 1100px;
     margin-top: 100px;
-    padding-top: 100px;
+   
 }
 
 .plan_title {
@@ -325,7 +329,7 @@ features .features-description {
 
 }
 
-.plan_title p {
+.plan_title p{
     width: 555px;
     height: 60px;
     font-weight: 400;
@@ -338,8 +342,6 @@ features .features-description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 
 .plan_free,
@@ -347,25 +349,24 @@ features .features-description {
 .plan_premium {
     width: 330px;
     height: 850px;
-    border: 1.5px solid red;
+    border: 2px solid grey;
     cursor: pointer;
-
-
+    padding-left: 35px;
 }
 
 .plan_free:hover {
-    border: 2px solid red;
-    box-shadow: 2px 3px 2px red;
+    border: 1px solid red;
+    box-shadow: 2px 4px 2px red;
 }
 
 .plan_standard:hover {
-    border: 2px solid red;
-    box-shadow: 2px 3px 2px red;
+    border: 1px solid red;
+    box-shadow: 2px 4px 2px red;
 }
 
 .plan_premium:hover {
     border: 2px solid red;
-    box-shadow: 2px 3px 2px red;
+    box-shadow: 2px 4px 2px red;
 }
 
 .plan_free-img,
@@ -386,6 +387,7 @@ features .features-description {
     flex-direction: column;
     height: 150px;
     line-height: 1.5;
+     padding-left: 5px;
 }
 
 .plan_free ul li,
@@ -406,7 +408,8 @@ features .features-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
-    margin-bottom: 2em;
+     margin-top: 1em;
+     margin-left: 1em;
 }
 
 .plan_free ul li img,
@@ -489,5 +492,31 @@ features .features-description {
 }
 /* Global section started  */
 .global{
-    width:1060px;
+    width:1100px;
+    margin: 100px 100px 50px 100px;
+}
+.global-title{
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     width: 383px;
+     margin-left: 500px;
+     margin-right: 600px;
+}
+#global-title-h2{
+    font-weight:500;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center;
+}
+.global-p{
+    width:555px;
+    height: 60px;
+    margin:50px 400px 50px 400px ;
+}
+.global-map_img{
+    width: 1060px;
+    height: 538px;
+    margin-left: 50px;
 }
