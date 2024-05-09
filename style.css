@@ -616,7 +616,7 @@ features .features-description {
     justify-content: space-between;
     margin:5px 20px 5px 20px;
     align-items: center;
-    scroll-snap-align: start;
+    scroll-snap-align:start;
 }
 .slider{
  width:400px;
@@ -649,7 +649,8 @@ features .features-description {
     width:1300p;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-left: 100px;
 }
 .customer-slider-link{
     width:130px;
@@ -690,6 +691,72 @@ features .features-description {
     border-radius: 50%;
     margin-top:30px;
 }
+
+/* subscribe section started  */
+.subscribe{
+    width:1140px;
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 200px 0 200px;
+    box-shadow: 2px 1px 2px silver;
+     margin-left: 400px;
+     margin-right: 400px;
+     background: white;
+}
+.subscribe-left{
+    width:410px;
+    height: 116px;
+    margin-left: 100px;
+    margin-top: 80px;
+
+
+}
+.subscribe-head{
+    width:372px;
+    height:80px;
+}
+.subscribe-head h2{
+    font-weight: 500;
+    size:35px;
+    line-height: 45px;
+    color: #0B132A;
+}
+.subscribe-p{
+    width:410px;
+    height: 16px;
+}
+.subscribe-p p{
+    font-weight: 400;
+    size:16px;
+    line-height: 30px;
+    color:#4F5665;
+}
+.subscribe-button{
+    width:250px;
+    height: 86px;
+    margin-right:300px;
+    margin-top: 100px;
+}
+.subscribe-button button{
+    width:250px;
+    height: 60px;
+    background: red;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 1px 3px 1px red;
+}
+.subscribe-button button:hover{
+    box-shadow: 2px 2px 3px rgb(156, 144, 144);
+    background:whitesmoke;
+    color: red;
+    transition:transform 0.5s;
+}
+
 
 
 
