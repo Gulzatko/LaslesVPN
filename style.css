@@ -561,8 +561,13 @@ features .features-description {
     height: 52px;
     padding-top: 80px;
 }
-/* happy customers sliders section */
 
+/*customers' comments sliders section */
+.customers-com{
+    width: 1300px;
+    height: 600px;
+    
+}
 
 
 
