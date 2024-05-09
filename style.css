@@ -694,15 +694,15 @@ features .features-description {
 
 /* subscribe section started  */
 .subscribe{
-    width:1140px;
+    width:900px;
     height: 235px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:0 200px 0 200px;
-    box-shadow: 2px 1px 2px silver;
+    margin:0 200px 0 300px;
+    box-shadow: 5px 2px 5px 2px silver;
      margin-left: 400px;
-     margin-right: 400px;
+     margin-right:450px;
      background: white;
 }
 .subscribe-left{
@@ -756,6 +756,100 @@ features .features-description {
     color: red;
     transition:transform 0.5s;
 }
+footer{
+    width:1440px;
+    height: 565px;
+    background:rgb(241, 237, 237);
+    margin: 0px 10px 0 10px;
+    padding-top: 200px;
+    display: flex;
+}
+.Footer-laslesVPN{
+    width:50%;
+    height: 280px;
+}
+.footer-logo{
+    width:149px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer-logo-title{
+    width:104px;
+    height: 24px;
+    margin-top: 10px;
+
+}
+.footer-logo-title h3{
+    font-weight: 500;
+    font-size: 20px;
+    color:#0B132A;
+}
+.footer-laslesVPN_header{
+    width:340px;
+    height: 62px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer-laslesVPN_header h4{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+}
+.footer-laslesVPN_logos{
+    width:100px;
+    display: flex;
+    flex-direction: row;
+}
+.laslesVPN_email_logo{
+    width:132px;
+    height: 30px;
+    margin-left: 10px;
+}
+.laslesVPN_email_logo h4{
+    font-weight: 500;
+    font-size:16px;
+    line-height: 30px;
+}
+.footer-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-right ul{
+    width:74px;
+    height: 280px;
+}
+.footer-right ul li{
+    list-style: none;
+}
+.product{
+    width:74px;
+    height: 280px;
+}
+.product li, .engage li, .earnMoney li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#4F5665;
+}
+
+#subscribe{
+    position: relative;
+    margin-top: 200px;
+    z-index:3;
+ 
+}
+#footer{
+ position: absolute;
+  z-index: 1;
+} 
+
+
 
 
 
