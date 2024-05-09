@@ -566,8 +566,37 @@ features .features-description {
 .customers-com{
     width: 1300px;
     height: 600px;
-    
+
+}
+.customers-com_head{
+    width:450px;
+    height: 250px;
+    margin:10px 10px 10px 400px;
 }
 
+.customer-com-h2{
+    width:450px;
+    height:100px;
+    padding:4px 3px 3px 3px;
+    margin-bottom: 7px;
+   
+}
+.customer-com-h2 h2{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color:#0B132A;
+}
+.customer-com-p{
+    width:555px;
+    height: 60px;
+    
+}
+.customer-com-p p{
+    font-weight:400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#4F5665;
+}
 
 
