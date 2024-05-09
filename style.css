@@ -565,7 +565,8 @@ features .features-description {
 /*customers' comments sliders section */
 .customers-com{
     width: 1300px;
-    height: 600px;
+    height: 750px;
+    margin:10px 10px 5px 10px;
 
 }
 .customers-com_head{
@@ -606,16 +607,88 @@ features .features-description {
    display: flex;
    scroll-snap-type: x mandatory;
    scroll-behavior: smooth;
-
 }
 .customer-slider .items{
     flex: 0 0 1400px;
     width:1400px;
     height: 230px;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin:5px 20px 5px 20px;
     align-items: center;
     scroll-snap-align: start;
+}
+.slider{
+ width:400px;
+ height: 200px;
+  margin-left:40px; 
+  border: 2px solid grey;
+  border-radius: 10px; 
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  
+}
+.slider:hover{
+    border: 2px solid red;
+
+}
+.slider .status{
+  width:350px;
+  display: flex;
+  justify-content: space-between;
+}
+.star-icon{
+    display: flex;
+    flex-direction: row;
+}
+.star-icon img{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.link-arrow{
+    width:1300p;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.customer-slider-link{
+    width:130px;
+    height: 15px;
+    display: flex;
+    flex-direction:row;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.customer-slider-link a{
+    width:10px;
+    height:10px;
+    background-color: #DDE0E4;
+    border:none ;
+    border-radius: 45px;
+    margin:5px 3px;
+    padding: 2px 5px;
+
+}
+#first-red{
+    width:45px;
+    height: 10px;
+    border:1px solid red;
+    padding: 0px 10px;
+    border-radius: 45px;
+    background: red;
+}
+.arrows{
+    display:flex;
+    flex-direction:row;
+    margin-top: 30px;
+}
+.arrows #left-arrow{
+    width:60px;
+    height: 60px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-top:30px;
 }
 
 
