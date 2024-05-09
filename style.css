@@ -561,75 +561,8 @@ features .features-description {
     height: 52px;
     padding-top: 80px;
 }
-
 /* happy customers sliders section */
-.happy-customers_sliders{
-    position:relative;
-    max-width: 48rem;
-    margin: 20px 0px 20px 0px;
-    
-}
-.slider{
-    display:flex;
-    aspect-ratio: 16/9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
-}
-.slider h2{
-    flex:1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
 
-}
-.slider-nav{
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left:50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.slider-nav a{
-    width:0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: black;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.slider-nav a:hover{
-    opacity: 1;
-}
-.happy-customers{
-    width:1300px;
-    height: 590px;
-}
-.happy-cusmoers-head{
-    width:448px;
-    height: 100px;
-    margin: 50px 200px 0 300px;
-}
-.happy-cusmoers-head h1{
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 50px;
-}
-.happy-customers-p{
-    width:555px;
-    height: 60px;
-    margin: 50px 200px 0 250px;
-}
-.happy-customers-p p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-}
-.happy-customer-slide{
-    width:400px;
-    height: 230px;
-    border: 2px solid red;
-    border-radius: 10px;
-}
+
+
+
