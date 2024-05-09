@@ -598,5 +598,25 @@ features .features-description {
     line-height: 30px;
     color:#4F5665;
 }
+.customer-slider{
+   width:1400px; 
+   height: 240px; 
+   overflow-y: hidden;
+   overflow-x: auto;
+   display: flex;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+
+}
+.customer-slider .items{
+    flex: 0 0 1400px;
+    width:1400px;
+    height: 230px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
 
 
